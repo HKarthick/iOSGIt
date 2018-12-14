@@ -10,14 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     var array : [String] = []
-
+    
     @IBOutlet weak var v: UIView!
     @IBOutlet weak var emailTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    guard let url = URL(string: "https://maps.googleapis.com/maps/api/place/nearbysearch/json?types              =movie_theater&location=11.043620,76.924670&radius=50000&sensor=true&key=AIzaSyBA387cDqEvav48v3cuYGrjqeHx1-faamc") else {return}
-       array = callMethod(urlName: url)
+        guard let url = URL(string: "https://maps.googleapis.com/maps/api/place/nearbysearch/json?types              =movie_theater&location=11.043620,76.924670&radius=50000&sensor=true&key=AIzaSyBA387cDqEvav48v3cuYGrjqeHx1-faamc") else {return}
+        array = callMethod(urlName: url)
         // Do any additional setup after loading the view, typically from a nib.
         
     }
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         
     }
     
-
+    
     @IBAction func actionButton(_ sender: Any) {
         if emailTextField.text == ""
         {
