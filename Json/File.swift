@@ -38,6 +38,12 @@ extension UIViewController
         }
         task.resume()
         
+        
+        
+        
+        
+        
+        
         return array
     }
     
