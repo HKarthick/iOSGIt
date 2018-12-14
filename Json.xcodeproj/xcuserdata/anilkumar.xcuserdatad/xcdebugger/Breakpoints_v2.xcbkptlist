@@ -79,7 +79,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
             endingLineNumber = "23"
-            landmarkName = "showConfirmAlerts(title:message:buttonTitle:buttonStyle:confirmAction:)"
+            landmarkName = "callMethod(urlName:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
